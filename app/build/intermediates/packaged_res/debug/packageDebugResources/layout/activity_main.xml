@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMortgageAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mortgage Amount"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtTenure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Tenure (Years)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Interest Rate (%)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculateEMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate EMI" />
+
+    <TextView
+        android:id="@+id/txtEMIResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Monthly EMI: "
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
